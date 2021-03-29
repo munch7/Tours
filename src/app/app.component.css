@@ -1,0 +1,57 @@
+.nav { 
+	padding: 2rem .5rem;
+    padding-left: 40px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3); 
+	transition: .3s text-shadow linear;
+	font-weight: 100;
+	font-family: Avenir, Helvetica, sans-serif;
+}
+.nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.8rem; padding:.5em;
+	border-bottom: none;
+	position: relative;
+}
+.nav a:hover { 
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	opacity: 1;
+    color: lawngreen;
+}
+.nav a:active {
+    color: lawngreen
+}
+
+.row{
+    color: white;
+    margin: 0%;
+	background-color: #003580;
+}
+h1{
+    padding: 10px;
+    padding-left: 60px;
+}
+
+.container{
+    margin: 0%;
+    padding: 0px;
+    width: 100%;
+    background: url(https://trekbaron.com/wp-content/uploads/2020/06/types-of-beaches-June302020-1-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content{
+	background-color: #003580;
+    padding: 0px;
+    margin: 0px;
+}
+.card{
+    background: transparent;
+    color: black;
+    font-size: x-large;
+    width: 100%;
+    height: 200px;
+    padding: 10%;
+    margin-top: 10%;
+    text-align: center;
+}
