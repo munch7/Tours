@@ -1,0 +1,43 @@
+button{
+    background: transparent;
+    font-size: x-large;
+    border: 0ch;
+    height: 250px;
+    width: 320px;
+    margin: 10px;
+    padding: 18px;
+    text-align: center;
+}
+button :active{
+    border: 0px;
+}
+.com{
+    background: rgb(231, 231, 231);
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+.uzi{
+    height: 500x;
+    margin: 0ch;
+    padding: 0ch;
+    background: transparent;
+    align-items: center;
+}
+.col{
+    margin: 0ch;
+    margin-top: 18px;
+    padding: 8px;
+}
+.img{
+    height: auto;
+    margin: 8px;
+}
+.butt{
+    width: 28%;
+    height: auto;
+    margin: 8px;    
+    padding: 0px;
+}

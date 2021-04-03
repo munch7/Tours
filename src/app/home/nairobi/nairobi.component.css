@@ -1,0 +1,14 @@
+.img{
+    width: 80%;
+    margin: 0px;
+    padding: 12px;
+    background: url(../../../assets/img/nairobi.jpg);
+    background-size: cover;
+    height: 300px;
+    border-radius: 20px;
+}
+input{
+    margin: 20px;
+    width: auto;
+    border: 0;
+}
