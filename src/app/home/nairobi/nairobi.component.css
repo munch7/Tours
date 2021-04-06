@@ -2,8 +2,8 @@
     width: 80%;
     margin: 0px;
     padding: 12px;
-    background: url(../../../assets/img/nairobi.jpg);
-    background-size: cover;
+    background: url(../../../assets/img/nai2.jpg);
+    background-size: 100%;
     height: 300px;
     border-radius: 20px;
 }
@@ -11,4 +11,14 @@ input{
     margin: 20px;
     width: auto;
     border: 0;
+}
+.cok{
+    width: 70%;
+    padding: 10px;
+}
+li, a{
+    padding: 10px;
+    text-align: left;
+    font-size: large;
+    color: lawngreen;
 }
