@@ -1,35 +1,45 @@
-<div class="row">
-  <div class="uzi">
-    <button style="background: url(../../assets/img/nai.jpg); background-size: 110%;" routerLink='/nai'>
-      Nairobi
-    </button>
-    <button style="background: url(../../assets/img/momba.jpg); background-size: 120%;" routerLink='/momba'>
-      Mombasa
-    </button>
-    <button style="background: url(../../assets/img/IMG-20210401-WA0004.jpg); background-size: 100%;" routerLink="/kis">
-      Maasai Mara
-    </button>
+<div class="container" align="center">
+  <div class="row">
+    <div class="col-md-12" style="width: 100%; padding: 10px;">
+      <button style="background: url(../../assets/img/nai.jpg); background-size: 110%;
+      background-repeat: no-repeat;" routerLink='/nai'>
+        Nairobi
+      </button>
+      <button style="background: url(../../assets/img/momba.jpg); background-size: 120%;
+      background-repeat: no-repeat;" routerLink='/momba'>
+        Mombasa
+      </button>
+      <button style="background: url(../../assets/img/IMG-20210401-WA0004.jpg); background-size: 100%;
+      background-repeat: no-repeat;" routerLink="/mara">
+        Maasai Mara
+      </button>
+      <button style="background: url(../../assets/img/IMG-20210401-WA0009.jpg); background-size: 100%;
+      background-repeat: no-repeat;" routerLink="/kis">
+        Amboseli
+      </button>
+      <button style="background: url(../../assets/img/IMG-20210401-WA0005.jpg); background-size: 100%;
+      background-repeat: no-repeat;" routerLink="/kis">
+        Samburu
+      </button>
+    </div>
   </div>
-</div>
-
-<div class="col">
-  <router-outlet></router-outlet>
-</div>
-
-<div class="row" style="margin: 20px;">
-  <u><h3 style="text-align: left; margin-left: 40px;">New features</h3></u>
-  <div class="com">
-    <button class="butt">
-      <img class="img"src="../../assets/img/kisumu.jpg"
-        width="100%">Eldoret
-    </button>
-    <button class="butt">
-      <img class="img"src="../../assets/img/IMG-20210401-WA0009.jpg"
-        width="100%">Amboseli
-    </button>
-    <button class="butt">
-      <img class="img"src="../../assets/img/kisumu.jpg"
-        width="100%">Samburu
-    </button>
+  
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+  
+  <div class="row" align="center">
+    <u><h3 style="text-align: left; margin-left: 40px;">New features</h3></u>
+    <div class="com">
+      <button class="butt" style="background: url(../../assets/img/kisumu.jpg); background-size: 100%;">
+        Eldoret
+      </button>
+      <button class="butt" style="background: url(../../assets/img/IMG-20210401-WA0009.jpg); background-size: 100%;">
+        Amboseli
+      </button>
+      <button class="butt" style="background: url(../../assets/img/kisumu.jpg); background-size: 100%;">
+        Samburu
+      </button>
+    </div>
   </div>
 </div>

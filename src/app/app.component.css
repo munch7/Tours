@@ -25,6 +25,7 @@
 .row{
     color: white;
     margin: 0%;
+    padding: 0%;
 	background-color: #003580;
 }
 h1{
@@ -36,18 +37,9 @@ h1{
     margin: 0%;
     padding: 0px;
     width: 100%;
-    background: url(https://trekbaron.com/wp-content/uploads/2020/06/types-of-beaches-June302020-1-min.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.content{
-	background-color: #003580;
-    padding: 0px;
-    margin: 0px;
 }
 .bod{
     height: auto; 
     background: transparent;
-    align-self: center;
-    width: 90%;
+    width: 100%;
 }

@@ -11,7 +11,7 @@ import { FlightsComponent } from './flights/flights.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { NairobiComponent } from './home/nairobi/nairobi.component';
 import { MombasaComponent } from './home/mombasa/mombasa.component';
-import { KisumuComponent } from './home/kisumu/kisumu.component';
+import { MaraComponent } from './home/mara/mara.component';
 
 @NgModule({
   declarations: [
@@ -23,8 +23,8 @@ import { KisumuComponent } from './home/kisumu/kisumu.component';
     FlightsComponent,
     ContactsComponent,
     NairobiComponent,
-    MombasaComponent,
-    KisumuComponent
+    MaraComponent,
+    MombasaComponent
   ],
   imports: [
     BrowserModule,

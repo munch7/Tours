@@ -5,7 +5,7 @@ import { BookingsComponent } from './bookings/bookings.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { FlightsComponent } from './flights/flights.component';
 import { HomeComponent } from './home/home.component';
-import { KisumuComponent } from './home/kisumu/kisumu.component';
+import { MaraComponent } from './home/mara/mara.component';
 import { MombasaComponent } from './home/mombasa/mombasa.component';
 import { NairobiComponent } from './home/nairobi/nairobi.component';
 import { StaysComponent } from './stays/stays.component';
@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent, children:[
     { path: 'nai', component: NairobiComponent },
     { path:'momba', component: MombasaComponent },
-    { path:'kis', component: KisumuComponent }
+    { path: 'mara', component: MaraComponent }
   ] },
   { path: 'us', component: AboutUsComponent },
   { path: 'booking', component: BookingsComponent },

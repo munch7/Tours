@@ -1,43 +1,44 @@
+.container{
+    width: 100%;
+    margin: 0px;
+    padding: 0%;
+    padding-bottom: 10px;
+}
 button{
-    font-size: xx-large;
+    font-size: large;
     color: lawngreen;
     border: 0ch;
-    height: 250px;
-    width: 320px;
-    margin: 10px;
-    padding: 18px;
-    text-align: center;
+    height: 150px;
+    width: 180px;
+    margin: 20px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
 }
 button :active{
     border: 0px;
 }
 .com{
     background: rgb(231, 231, 231);
-    width: 100%;
+    width: 90%;
     height: auto;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 0px;
     padding: 0px;
 }
-.uzi{
-    height: 500x;
+.row{
+    width: 100%;
     margin: 0ch;
     padding: 0ch;
-    background: transparent;
-    align-items: center;
-}
-.col{
-    margin: 0ch;
-    margin-top: 18px;
-    padding: 8px;
 }
 .img{
     height: auto;
     margin: 8px;
 }
 .butt{
-    width: 28%;
-    height: auto;
-    margin: 8px;    
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+    margin-left: 20px;
     padding: 0px;
 }
