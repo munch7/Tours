@@ -43,3 +43,18 @@ h1{
     background: transparent;
     width: 100%;
 }
+footer{
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0%;
+    padding: 0px;
+    position: fixed;
+    background: blue;
+    color: white;
+  }
+
+p{
+    padding: 2px;
+}

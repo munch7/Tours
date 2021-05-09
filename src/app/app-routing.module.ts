@@ -13,7 +13,7 @@ import { StaysComponent } from './stays/stays.component';
 const routes: Routes = [
   { path: '', component: HomeComponent, children:[
     { path: 'nai', component: NairobiComponent },
-    { path:'momba', component: MombasaComponent },
+    { path: 'momba', component: MombasaComponent },
     { path: 'mara', component: MaraComponent }
   ] },
   { path: 'us', component: AboutUsComponent },
