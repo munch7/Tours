@@ -1,4 +1,4 @@
-.img{
+.img {
     width: 80%;
     margin: 0px;
     padding: 10px;
@@ -9,25 +9,30 @@
     color: white;
     border-radius: 20px;
 }
-input{
+
+input {
     margin: 20px;
     width: auto;
     border: 0;
 }
-.cok{
+
+.cok {
     width: 70%;
     padding: 10px;
     height: auto;
-} 
-a{
+}
+
+a {
     padding: 0px;
     margin: 0px;
     font-size: x-large;
     color: white;
 }
+
 a :hover {
     color: lawngreen;
 }
-li{
+
+li {
     margin: 10px;
 }
